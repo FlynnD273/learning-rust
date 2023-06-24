@@ -24,7 +24,7 @@ fn main() {
                 continue;
             }
         };
-
+        REMOVE BUILD ARTIFACTS FROM GIT REPO
         println!("Your guess was {guess}");
 
         match guess.cmp(&secret_number) {
