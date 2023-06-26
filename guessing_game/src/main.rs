@@ -21,8 +21,7 @@ fn main() {
 
     if is_player_guess {
         game_type = GameType::PlayerGuess;
-    } 
-    else {
+    } else {
         game_type = GameType::ComputerGuess;
     }
 
@@ -80,7 +79,7 @@ fn computer_guess(guess_min: i32, guess_max: i32) -> u32 {
         }
     }
 
-    return guess_count;
+    guess_count
 }
 
 fn player_guess(min: i32, max: i32) -> u32 {
@@ -120,5 +119,6 @@ fn player_guess(min: i32, max: i32) -> u32 {
         }
     }
 
-    return guess_count;
+    guess_count
 }
+
