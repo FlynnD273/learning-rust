@@ -2,6 +2,7 @@ use std::io;
 use std::cmp::Ordering;
 use rand::Rng;
 
+// Not at all needed, but I wanted  to play with enums
 enum GameType {
    PlayerGuess,
    ComputerGuess,
